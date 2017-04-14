@@ -10,6 +10,15 @@
 
 @implementation Animal
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"animal";
+    }
+    return self;
+}
+
 - (void)eat
 {
     NSLog(@"animal eat");
