@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D7DB64071EA1157500F25BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB64061EA1157500F25BEF /* main.m */; };
 		D7DB64121EA1167500F25BEF /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB64111EA1167500F25BEF /* Animal.m */; };
+		D7DB64151EA1190A00F25BEF /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB64141EA1190A00F25BEF /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D7DB64061EA1157500F25BEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7DB64101EA1167500F25BEF /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		D7DB64111EA1167500F25BEF /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		D7DB64131EA1190A00F25BEF /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		D7DB64141EA1190A00F25BEF /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D7DB64061EA1157500F25BEF /* main.m */,
 				D7DB64101EA1167500F25BEF /* Animal.h */,
 				D7DB64111EA1167500F25BEF /* Animal.m */,
+				D7DB64131EA1190A00F25BEF /* Cat.h */,
+				D7DB64141EA1190A00F25BEF /* Cat.m */,
 			);
 			path = cms;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DB64151EA1190A00F25BEF /* Cat.m in Sources */,
 				D7DB64071EA1157500F25BEF /* main.m in Sources */,
 				D7DB64121EA1167500F25BEF /* Animal.m in Sources */,
 			);
