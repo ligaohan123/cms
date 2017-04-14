@@ -14,9 +14,10 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         Animal * animal = [[Animal alloc] init];
         [animal eat];
-        
+        [animal printName];
         Animal * cat = [[Cat alloc]init];
         [cat eat];
+        [cat printName];
     }
     return 0;
 }
