@@ -15,4 +15,8 @@
     NSLog(@"animal eat");
 }
 
+- (void)printName
+{
+    NSLog(@"%@",self.name);
+}
 @end
