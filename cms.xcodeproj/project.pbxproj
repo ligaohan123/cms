@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7DB64071EA1157500F25BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB64061EA1157500F25BEF /* main.m */; };
+		D7DB64121EA1167500F25BEF /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB64111EA1167500F25BEF /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D7DB64031EA1157500F25BEF /* cms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cms; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DB64061EA1157500F25BEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7DB64101EA1167500F25BEF /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		D7DB64111EA1167500F25BEF /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D7DB64061EA1157500F25BEF /* main.m */,
+				D7DB64101EA1167500F25BEF /* Animal.h */,
+				D7DB64111EA1167500F25BEF /* Animal.m */,
 			);
 			path = cms;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DB64071EA1157500F25BEF /* main.m in Sources */,
+				D7DB64121EA1167500F25BEF /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				D7DB640C1EA1157500F25BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
