@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Cat.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        Animal * animal = [[Animal alloc] init];
+        [animal eat];
+        
+        Animal * cat = [[Cat alloc]init];
+        [cat eat];
     }
     return 0;
 }
