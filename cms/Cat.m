@@ -10,6 +10,16 @@
 
 @implementation Cat
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"cat";
+    }
+    return self;
+}
+
+
 - (void)eat
 {
     NSLog(@"cat eat");
